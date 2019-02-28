@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url("../images/tiamat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "arial";
+}
+#header {
+    height: 120px;
+    background-color: darkred;
+}
+#DnD-image{
+    height: 120px;
+    width: 240px;
+    margin-left: 550px;
+}
+#left-column img{
+    width: 50px;
+    height: 50px;
+}
+#left-column{
+    background-color: darkred;
+    width: 15%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    font-family: 'Franklin Gothic Medium'; 
+}
+ul{
+    list-style: none;
+
+}
+#left-column li :hover{
+    background-color: red;
+    text-decoration: none;
+}
+#left-column a{
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    margin:0 auto;
+    padding: 0; 
+    display: inline-block;
+}
+
+#left-column .icon{
+    width: 50px;
+    height: 50px;
+}
+#center-column{
+    background-color: gray;
+    width: 20%;
+    height: 100%; 
+    overflow-y: auto;
+    float: left;
+}
+#center-column  .monsters:nth-child(odd){
+    background-color: darkgray;
+    width: 100%;
+}
+#center-column img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.monsters{
+    height: 200px;
+    float:left;
+}
+.desc{
+    height: 100px;
+    width: 175px;
+    float: right;
+    overflow-y: scroll;
+}
+.info{
+    height: 35px;
+    width: 100px;
+    background-color: red;
+}
+.clearfix{
+    clear: both;
+}
+#right-column{
+    width: calc(65% - 6px);
+    height: 100%; 
+    float: left;
+    overflow-y: auto;
+    background-color: darkred;
+}
+#profilePic{
+    height: 500px;
+    width:500px;
+}
+#story{
+    width: 100%;
+}
+#stats{
+ width: 750px;
+}
+
